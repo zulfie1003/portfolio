@@ -440,7 +440,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Download resume button
+     // Define the download function
+    function downloadResume() {
+        const link = document.createElement('a');
+        link.href = 'resume.pdf'; // Change to your actual resume file path
+        link.download = 'resume.pdf'; // File name when saved
+        document.body.appendChild(link); // Required for Firefox
+        link.click();
+        document.body.removeChild(link); // Clean up
+    }
+
+    // Add event listener
     const downloadBtn = document.querySelector('.btn-secondary');
     if (downloadBtn) {
         downloadBtn.addEventListener('click', downloadResume);
