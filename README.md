@@ -2,7 +2,7 @@
 
 A stunning, interactive personal portfolio website built with **vanilla HTML, CSS, and JavaScript** featuring 3D animations, glassmorphism effects, and modern UI design.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/6366f1/ffffff?text=Portfolio+Preview)
+![Portfolio Preview](zulfie1003.github.io/portfolio/)
 
 ## ✨ Features
 
